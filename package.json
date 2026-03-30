@@ -1,0 +1,8 @@
+{
+  "name": "node-assignment2",
+  "version": "1.0.0",
+  "main": "exercise1.js",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
