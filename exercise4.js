@@ -1,6 +1,10 @@
 const express = require('express');
 const app = express();
 
+const PORT = process.env.PORT || 3000;
+
 app.use(express.static('public'));
 
-app.listen(80, () => console.log('Server running on port 80'));
+app.listen(PORT, () => {
+    console.log(`Server running on port ${PORT}`);
+});
